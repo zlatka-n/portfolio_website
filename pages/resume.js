@@ -1,3 +1,9 @@
+import Layout from "@/components/Layout";
+
 export default function ResumePage() {
-  return <div>Resume</div>;
+  return (
+    <Layout>
+      <h1>Resume</h1>
+    </Layout>
+  );
 }
