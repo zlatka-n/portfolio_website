@@ -17,7 +17,7 @@ export default function Layout({
       </Head>
       <main className="w-full">
         <Header />
-        <div className="max-w-7xl mx-auto px-2">{children}</div>
+        <div className="w-full mx-auto">{children}</div>
       </main>
     </div>
   );
