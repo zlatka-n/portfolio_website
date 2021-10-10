@@ -10,7 +10,7 @@ export default function Home() {
       description="Visit Zlatka's personal website homepage"
     >
       <section className="mx-auto max-w-7xl">
-        <h1 className="mx-auto md:w-3/5 text-7xl font-sans text-gray-700	font-bold bg-pink-400 leading-normal">
+        <h1 className="mx-auto md:w-3/5 text-5xl md:text-7xl font-sans font-bold bg-pink-400 leading-normal pl-2 pt-2 pb-2">
           Hello, I'm Zlatka.
         </h1>
         <div className="mx-auto md:w-3/5 leading-normal py-10 text-2xl text-gray-700 ">
@@ -23,9 +23,9 @@ export default function Home() {
       </section>
 
       {/* Portfolio section with images */}
-      <section className="bg-gray-200">
+      <section className="bg-gray-200 pb-10">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mx-auto text-5xl p-5 text-gray-700	font-semibold">
+          <h2 className="mx-auto text-5xl px-5 pt-7 pb-3 text-gray-700	font-semibold">
             Projects
           </h2>
 
