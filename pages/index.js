@@ -114,5 +114,3 @@ export default function Home() {
     </Layout>
   );
 }
-
-//max-w-7xl
