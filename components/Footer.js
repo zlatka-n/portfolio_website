@@ -1,3 +1,9 @@
 export default function Footer() {
-  return <div>Footer</div>;
+  return (
+    <footer className="">
+      <div className="">Footer</div>
+    </footer>
+  );
 }
+
+//inset-x-0 bottom-0 relative xl:absolute

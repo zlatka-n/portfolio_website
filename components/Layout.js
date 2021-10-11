@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "./Header";
+import Footer from "@/components/Footer";
 
 export default function Layout({
   title,
@@ -9,15 +10,23 @@ export default function Layout({
   content,
 }) {
   return (
-    <div className="w-full">
+    <div className="max-h-full">
       <Head>
         <title>{title}</title>
         <meta name="keywords" content={keywords}></meta>
         <meta name="description" content={description}></meta>
       </Head>
-      <main className="w-full">
-        <Header />
-        <div className="w-full mx-auto">{children}</div>
+
+      <main>
+        <div className="h-1/4">
+          <Header />
+        </div>
+        <div className="min-h-screen mx-auto overflow-y-scroll h-2/4">
+          {children}
+        </div>
+        <div className="h-1/4">
+          <Footer />
+        </div>
       </main>
     </div>
   );
