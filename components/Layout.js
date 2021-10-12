@@ -21,9 +21,7 @@ export default function Layout({
         <div className="h-1/4">
           <Header />
         </div>
-        <div className="min-h-screen mx-auto overflow-y-scroll h-2/4">
-          {children}
-        </div>
+        <div className="min-h-screen mx-auto h-2/4">{children}</div>
         <div className="h-1/4">
           <Footer />
         </div>
