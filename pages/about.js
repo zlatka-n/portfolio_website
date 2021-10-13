@@ -33,12 +33,12 @@ export default function About() {
               <div className="flex justify-center">
                 <Image src="/techStack/combo.png" width={400} height={120} />
               </div>
-              <div className="flex justify-center lg:pl-20  md:gap-x-10">
-                <Image src="/techStack/react.png" width={125} height={90} />
+              <div className="flex justify-center lg:pl-20  md:gap-x-5">
+                <Image src="/techStack/react.png" width={125} height={80} />
                 <a className="">
-                  <Image src="/techStack/redux.png" width={125} height={90} />
+                  <Image src="/techStack/redux.png" width={125} height={80} />
                 </a>
-                <Image src="/techStack/git3.png" width={150} height={90} />
+                <Image src="/techStack/git3.png" width={180} height={80} />
               </div>
             </div>
           </div>
