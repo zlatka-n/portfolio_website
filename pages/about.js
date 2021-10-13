@@ -19,7 +19,8 @@ export default function About() {
               job, vanilla JavaScript is mostly needed, but I became curious
               about other technologies - I've just finished a Udemy's Next.js
               course. In my free time, I've been coding mostly with React.js and
-              Redux.
+              Redux, and realized that I would like to switch to front-end
+              development.
             </p>
             <p className="text-xl my-10 leading-normal">
               Feel free to get in touch. I will try to read and respond to all
