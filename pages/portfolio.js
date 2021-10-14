@@ -21,15 +21,20 @@ export default function PortfolioPage() {
 
       <div className="bg-gray-200 pb-10">
         <div className="max-w-7xl mx-auto  overflow-y-hidden min-h-screen">
-          <h2 className="text-5xl py-5 text-gray-700 font-medium">
-            Book Store
-          </h2>
-          <section className="xl:grid grid-cols-2 gap-4">
-            <div className="col-span-1">
-              <Image src="/screens/bookstore1.png" width={610} height={345} />
+          <section className="mx-auto md:w-3/5 flex flex-col">
+            <h2 className="text-3xl py-5 text-gray-700 font-medium">
+              Book Store
+            </h2>
+            <div>
+              <Image
+                layout="responsive"
+                src="/screens/bookstore1.png"
+                width={620}
+                height={345}
+              />
             </div>
 
-            <div className="col-span-1">
+            <div className="mt-10 mb-10">
               <h3 className="text-2xl text-gray-700 font-medium">
                 Description
               </h3>
@@ -47,11 +52,11 @@ export default function PortfolioPage() {
               <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
               <p className="text-xl mt-2 mb-5 leading-normal">
                 The most challenging thing I faced was configuration of the
-                Redux store. Firstly, I struggled with the data structure
-                architecture and secondly, with updating the amount of an item,
-                if the item was already in the basket. Also, I spent a
-                considerable amount with website responsiveness, as it was the
-                first time I used media queries.
+                Redux store. Firstly, I struggled with the data structure setup
+                and secondly, with updating the amount of an item, if the item
+                was already in the basket. Also, I spent a considerable amount
+                with website responsiveness, as it was the first time I used
+                media queries.
               </p>
               <div className="mt-2 mb-5 flex gap-x-3">
                 <a
