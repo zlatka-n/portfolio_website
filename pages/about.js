@@ -8,7 +8,7 @@ export default function About() {
         <div className="mx-auto md:w-3/5 font-sans">
           <h1 className="text-5xl md:text-7xl 4k:text-9xl font-bold">About</h1>
 
-          <div className=" box-border">
+          <div className="box-border">
             <p className="text-xl my-10 leading-normal">
               Hi, I’m Zlatka, an IT consultant based in the city of Prague,
               Czech Republic. I’m currently working with Neit Consulting

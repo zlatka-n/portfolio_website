@@ -21,32 +21,56 @@ export default function PortfolioPage() {
 
       <div className="bg-gray-200 pb-10">
         <div className="max-w-7xl mx-auto  overflow-y-hidden min-h-screen">
-          <h2 className="text-2xl py-5 text-gray-700 font-medium">
+          <h2 className="text-5xl py-5 text-gray-700 font-medium">
             Book Store
           </h2>
-          <section className="flex flex-row gap-x-10	">
-            <Image src="/screens/bookstore1.png" width={610} height={345} />
-            <div>
-              <h3>Description</h3>
-              <p>It does this and this</p>
+          <section className="xl:grid grid-cols-2 gap-4">
+            <div className="col-span-1">
+              <Image src="/screens/bookstore1.png" width={610} height={345} />
             </div>
-            {/* <div className=" my-5 flex gap-x-3">
-              <a
-                href="https://github.com/zlatka-n/eshop_redux"
-                target="_blank"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              >
-                <AiFillGithub className="float-left text-xl" />{" "}
-                <span className="px-1">GitHub</span>
-              </a>
-              <a
-                href="https://eshop-redux-o0j2i15xt-zlatka-n.vercel.app/"
-                target="_blank"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              >
-                <span className="px-5">Visit</span>
-              </a>
-            </div> */}
+
+            <div className="col-span-1">
+              <h3 className="text-2xl text-gray-700 font-medium">
+                Description
+              </h3>
+              <p className="text-xl mt-2 mb-5 leading-normal">
+                This book store lets a user to add items to the basket. Each
+                item (book) comes with its own page with description. In the
+                basket, user can also modify quantity or remove items. In
+                checkout, user must submit delivery information.
+              </p>
+              <h3 className="text-2xl text-gray-700 font-medium">Tech stack</h3>
+              <ul className="text-xl mt-2 mb-5 leading-normal">
+                <li>React.js</li>
+                <li>Redux</li>
+              </ul>
+              <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
+              <p className="text-xl mt-2 mb-5 leading-normal">
+                The most challenging thing I faced was configuration of the
+                Redux store. Firstly, I struggled with the data structure
+                architecture and secondly, with updating the amount of an item,
+                if the item was already in the basket. Also, I spent a
+                considerable amount with website responsiveness, as it was the
+                first time I used media queries.
+              </p>
+              <div className="mt-2 mb-5 flex gap-x-3">
+                <a
+                  href="https://github.com/zlatka-n/eshop_redux"
+                  target="_blank"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >
+                  <AiFillGithub className="float-left text-xl" />{" "}
+                  <span className="px-1">GitHub</span>
+                </a>
+                <a
+                  href="https://eshop-redux-o0j2i15xt-zlatka-n.vercel.app/"
+                  target="_blank"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >
+                  <span className="px-5">Visit</span>
+                </a>
+              </div>
+            </div>
           </section>
         </div>
       </div>
