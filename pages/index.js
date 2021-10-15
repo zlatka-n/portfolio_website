@@ -62,7 +62,11 @@ export default function Home() {
                 <h3 className="text-2xl py-5 text-gray-700 font-medium">
                   CRUD Todo List
                 </h3>
-                <Image src="/screens/todo_redux.png" width={514} height={460} />
+                <Image
+                  src="/screens/todo_redux2.png"
+                  width={514}
+                  height={460}
+                />
 
                 <div className=" my-5 flex gap-x-3">
                   <a
@@ -86,7 +90,7 @@ export default function Home() {
 
             <div className="px-5 md:flex-column gap-x-10">
               <h3 className="text-2xl py-5 text-gray-700 font-medium">
-                JSON placeholder
+                JSONPlaceholder
               </h3>
               <Image
                 src="/screens/typicode1.png"
