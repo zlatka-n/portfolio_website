@@ -5,12 +5,12 @@ import { AiFillGithub } from "react-icons/ai";
 export default function PortfolioPage() {
   return (
     <Layout>
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-7xl px-5">
         <section className="mx-auto md:w-3/5">
           <h1 className="text-5xl md:text-7xl 4k:text-9xl font-bold">
             Portfolio
           </h1>
-          <p className="text-xl my-10 leading-normal">
+          <p className="text-xl my-5 md:my-10 leading-normal">
             Everytime, when I learn something new, I try to create my own
             project from scratch, because practice makes perfect. Below, you can
             see my work. The latest project, I worked on, is this website which
@@ -19,10 +19,10 @@ export default function PortfolioPage() {
         </section>
       </div>
 
-      <div className="bg-gray-200 pb-10">
+      <div className="bg-gray-200 py-10">
         <div className="max-w-7xl mx-auto  overflow-y-hidden min-h-screen">
           <section className="mx-auto md:w-3/5 flex flex-col">
-            <h2 className="text-3xl py-5 text-gray-700 font-medium">
+            <h2 className="text-3xl px-5 md:px-0 py-5 text-gray-700 font-medium">
               Book Store
             </h2>
             <div>
@@ -34,7 +34,7 @@ export default function PortfolioPage() {
               />
             </div>
 
-            <div className="mt-10 mb-10">
+            <div className="mt-10 mb-10 px-5 md:px-0">
               <h3 className="text-2xl text-gray-700 font-medium">
                 Description
               </h3>
@@ -79,7 +79,7 @@ export default function PortfolioPage() {
           </section>
 
           <section className="mx-auto md:w-3/5 flex flex-col">
-            <h2 className="text-3xl py-5 text-gray-700 font-medium">
+            <h2 className="text-3xl px-5 md:px-0 py-5 text-gray-700 font-medium">
               JSON Placeholder
             </h2>
             <div>
@@ -91,7 +91,7 @@ export default function PortfolioPage() {
               />
             </div>
 
-            <div className="mt-10 mb-10">
+            <div className="mt-10 mb-10 px-5 md:px-0">
               <h3 className="text-2xl text-gray-700 font-medium">
                 Description
               </h3>
@@ -134,14 +134,14 @@ export default function PortfolioPage() {
           </section>
 
           <section className="mx-auto md:w-3/5 flex flex-col">
-            <h2 className="text-3xl py-5 text-gray-700 font-medium">
+            <h2 className="text-3xl px-5 md:px-0 py-5 text-gray-700 font-medium">
               Todo List
             </h2>
             <div className="mx-auto">
               <Image src="/screens/todo_redux2.png" width={420} height={345} />
             </div>
 
-            <div className="mt-10 mb-10">
+            <div className="mt-10 mb-10 px-5 md:px-0">
               <h3 className="text-2xl text-gray-700 font-medium">
                 Description
               </h3>
@@ -181,8 +181,8 @@ export default function PortfolioPage() {
           </section>
 
           <section className="mx-auto md:w-3/5 flex flex-col">
-            <h2 className="text-3xl py-5 text-gray-700 font-medium">
-              Website portfolio
+            <h2 className="text-3xl px-5 md:px-0 py-5 text-gray-700 font-medium">
+              Website Portfolio
             </h2>
             <div className="">
               <Image
@@ -193,7 +193,7 @@ export default function PortfolioPage() {
               />
             </div>
 
-            <div className="mt-10 mb-10">
+            <div className="px-5 md:px-0 mt-10 mb-5">
               <h3 className="text-2xl text-gray-700 font-medium">
                 Description
               </h3>
@@ -212,7 +212,7 @@ export default function PortfolioPage() {
                 This was the first time I used Next.js and Tailwind, so firstly
                 I had to get hang of it. The problem, I had, was with web
                 responsivness for 4k screen's dimensions (3840px X 2160px). The
-                problem was somehow managed with custom breakpoint in Tailwind.
+                4k issue was somehow managed with custom breakpoint in Tailwind.
               </p>
               <div className="mt-2 mb-5 flex gap-x-3">
                 <a
