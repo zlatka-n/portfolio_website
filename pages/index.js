@@ -14,7 +14,7 @@ export default function Home() {
           <h1 className="mx-auto md:w-3/5 text-5xl md:text-7xl 4k:text-9xl font-sans font-bold bg-pink-400 leading-normal pl-2 pt-2 pb-2 ">
             Hello, I'm Zlatka.
           </h1>
-          <div className="mx-auto md:w-3/5 leading-normal py-10 text-2xl text-gray-700 ">
+          <div className="mx-auto md:w-3/5 leading-normal px-5 md:px-0 py-10 text-2xl text-gray-700">
             <p>
               I currently work as an IT consultant in Prague, but I'd like to
               switch to front-end development. Here you can find a few

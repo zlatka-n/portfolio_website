@@ -6,9 +6,11 @@ export default function About() {
     <Layout>
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto md:w-3/5 font-sans">
-          <h1 className="text-5xl md:text-7xl 4k:text-9xl font-bold">About</h1>
+          <h1 className="text-5xl md:text-7xl 4k:text-9xl font-bold px-5 md:px-0">
+            About
+          </h1>
 
-          <div className="box-border">
+          <div className="box-border px-5 md:px-0">
             <p className="text-xl my-10 leading-normal">
               Hi, I’m Zlatka, an IT consultant based in the city of Prague,
               Czech Republic. I’m currently working with Neit Consulting
@@ -26,10 +28,10 @@ export default function About() {
               Feel free to get in touch. I will try to read and respond to all
               emails.
             </p>
-            <h2 className=" w-2/6	lg:w-1/5 my-10 p-2 box-content text-2xl xl:text-3xl font-bold text-white bg-red-500 rounded">
+            <h2 className="w-2/6 lg:w-1/5 my-10 p-2 box-content text-xl md:text-2xl xl:text-3xl font-bold text-white bg-red-500 rounded">
               Tech stack
             </h2>
-            <div className="flex flex-col gap-y-5">
+            <div className="flex flex-col gap-y-5 px-5 md:px-5">
               <div className="flex justify-center">
                 <Image src="/techStack/combo.png" width={400} height={120} />
               </div>
