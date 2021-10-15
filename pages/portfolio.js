@@ -55,8 +55,8 @@ export default function PortfolioPage() {
                 Redux store. Firstly, I struggled with the data structure setup
                 and secondly, with updating the amount of an item, if the item
                 was already in the basket. Also, I spent a considerable amount
-                with website responsiveness, as it was the first time I used
-                media queries.
+                of time with website responsiveness, as it was the first time I
+                used media queries.
               </p>
               <div className="mt-2 mb-5 flex gap-x-3">
                 <a
@@ -176,6 +176,60 @@ export default function PortfolioPage() {
                 >
                   <span className="px-5">Visit</span>
                 </a>
+              </div>
+            </div>
+          </section>
+
+          <section className="mx-auto md:w-3/5 flex flex-col">
+            <h2 className="text-3xl py-5 text-gray-700 font-medium">
+              Website portfolio
+            </h2>
+            <div className="">
+              <Image
+                layout="responsive"
+                src="/screens/website_portfolio.png"
+                width={620}
+                height={375}
+              />
+            </div>
+
+            <div className="mt-10 mb-10">
+              <h3 className="text-2xl text-gray-700 font-medium">
+                Description
+              </h3>
+              <p className="text-xl mt-2 mb-5 leading-normal">
+                The reason I created this website was for job search. My
+                potential employer can see my portfolio here and evaluate my
+                tech skills.
+              </p>
+              <h3 className="text-2xl text-gray-700 font-medium">Tech stack</h3>
+              <ul className="text-xl mt-2 mb-5 leading-normal">
+                <li>Next.js</li>
+                <li>Tailwind</li>
+              </ul>
+              <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
+              <p className="text-xl mt-2 mb-5 leading-normal">
+                This was the first time I used Next.js and Tailwind, so firstly
+                I had to get hang of it. The problem, I had, was with web
+                responsivness for 4k screen's dimensions (3840px X 2160px). The
+                problem was somehow managed with custom breakpoint in Tailwind.
+              </p>
+              <div className="mt-2 mb-5 flex gap-x-3">
+                <a
+                  href="https://github.com/zlatka-n/portfolio_website"
+                  target="_blank"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >
+                  <AiFillGithub className="float-left text-xl" />{" "}
+                  <span className="px-1">GitHub</span>
+                </a>
+                {/* <a
+                  href="https://todo-redux-liart.vercel.app/"
+                  target="_blank"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >
+                  <span className="px-5">Visit</span>
+                </a> */}
               </div>
             </div>
           </section>
