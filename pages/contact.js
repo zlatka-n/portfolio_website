@@ -50,11 +50,10 @@ export default function ContactPage() {
               {...register("user_name", {
                 required: true,
                 maxLength: 20,
-                pattern: /^[A-Za-z]+$/i,
               })}
             />
             {errors?.user_name?.type === "required" && (
-              <p>This field is required</p>
+              <p className="text-red-500">This field is required</p>
             )}
 
             <label>Email</label>
@@ -63,13 +62,29 @@ export default function ContactPage() {
               name="user_email"
               placeholder="Email"
               className="bg-gray-200 w-full h-14 px-3"
+              {...register("user_email", {
+                required: true,
+                pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+              })}
             />
+            {errors?.user_email?.type === "required" && (
+              <p className="text-red-500">This field is required</p>
+            )}
+            {errors?.user_email?.type === "pattern" && (
+              <p className="text-red-500">Invalid email</p>
+            )}
             <label>Message</label>
             <textarea
               name="message"
               className="bg-gray-200 w-full h-60 px-3"
               placeholder="Message"
+              {...register("message", {
+                required: true,
+              })}
             />
+            {errors?.message?.type === "required" && (
+              <p className="text-red-500">This field is required</p>
+            )}
             <input
               type="submit"
               value="Send"
