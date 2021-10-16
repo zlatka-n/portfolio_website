@@ -210,7 +210,8 @@ export default function PortfolioPage() {
               <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
               <p className="text-xl mt-2 mb-5 leading-normal">
                 This was the first time I used Next.js and Tailwind, so firstly
-                I had to get hang of it. The problem, I had, was with web
+                I had to get hang of it. Firstly, it took me a while to decide
+                on layout of this website. Another problem, I had, was with web
                 responsivness for 4k screen's dimensions (3840px X 2160px). The
                 4k issue was somehow managed with custom breakpoint in Tailwind.
               </p>
