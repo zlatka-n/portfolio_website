@@ -208,13 +208,21 @@ export default function PortfolioPage() {
                 <li>Tailwind</li>
               </ul>
               <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
-              <p className="text-xl mt-2 mb-5 leading-normal">
-                This was the first time I used Next.js and Tailwind, so firstly
-                I had to get hang of it. Firstly, it took me a while to decide
-                on layout of this website. Another problem, I had, was with web
-                responsivness for 4k screen's dimensions (3840px X 2160px). The
-                4k issue was somehow managed with custom breakpoint in Tailwind.
+              <p className="text-xl mt-2 leading-normal">
+                Things that took me a while to do:
               </p>
+
+              <ul className="text-xl mt-2 mb-5 leading-normal list-disc pl-10">
+                <li> website layout choice</li>
+                <li>
+                  web responsivness for 4k screen's dimensions (3840px X 2160px)
+                  - solved with custom breakpoint in Tailwind
+                </li>
+                <li>
+                  contact page - I had to combine libraries React Hook Form and
+                  EmailJs for input validation and sending a message to my email
+                </li>
+              </ul>
               <div className="mt-2 mb-5 flex gap-x-3">
                 <a
                   href="https://github.com/zlatka-n/portfolio_website"
