@@ -232,13 +232,6 @@ export default function PortfolioPage() {
                   <AiFillGithub className="float-left text-xl" />{" "}
                   <span className="px-1">GitHub</span>
                 </a>
-                {/* <a
-                  href="https://todo-redux-liart.vercel.app/"
-                  target="_blank"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                >
-                  <span className="px-5">Visit</span>
-                </a> */}
               </div>
             </div>
           </section>
