@@ -36,8 +36,8 @@ export default function ContactPage() {
   return (
     <Layout>
       <div className="mx-auto max-w-7xl">
-        <div className="mx-auto md:w-3/5">
-          <h1 className="text-5xl md:text-7xl 4k:text-9xl font-bold px-5 md:px-0 pb-5">
+        <div className="mx-auto md:w-3/5 px-5 md:px-0">
+          <h1 className="text-5xl md:text-7xl 4k:text-9xl font-bold  pb-5">
             Contact
           </h1>
           <p className="text-xl py-5">
