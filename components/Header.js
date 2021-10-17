@@ -15,10 +15,10 @@ export default function Header() {
           <Link href="/portfolio">
             <a>Portfolio</a>
           </Link>
-          <Link href="resume">
+          <Link href="/resume">
             <a>Resume</a>
           </Link>
-          <Link href="contact">
+          <Link href="/contact">
             <a>Contact</a>
           </Link>
         </div>
