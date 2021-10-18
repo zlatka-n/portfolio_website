@@ -15,9 +15,14 @@ export default function Header() {
           <Link href="/portfolio">
             <a>Portfolio</a>
           </Link>
-          <Link href="/resume">
-            <a>Resume</a>
-          </Link>
+          {/* <Link href="/resume"> */}
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1afVsoylEEumLTjgdYT3ge26XJJPb5uN1/view?usp=sharing"
+          >
+            Resume
+          </a>
+          {/* </Link> */}
           <Link href="/contact">
             <a>Contact</a>
           </Link>
