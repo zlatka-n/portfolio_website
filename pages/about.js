@@ -19,7 +19,14 @@ export default function About() {
             <p className="text-xl my-10 leading-normal">
               I've started coding out of curiosity in June 2020 . At my current
               job, vanilla JavaScript is mostly needed, but I became curious
-              about other technologies - I've just finished a Udemy's Next.js
+              about other technologies - I've just finished this Udemy's{" "}
+              <a
+                href="https://www.udemy.com/course/nextjs-dev-to-deployment/"
+                target="_blank"
+                className="underline text-blue-700"
+              >
+                Next.js
+              </a>{" "}
               course. In my free time, I've been coding mostly with React.js and
               Redux, and realized that I would like to switch to front-end
               development.
