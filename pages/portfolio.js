@@ -62,6 +62,7 @@ export default function PortfolioPage() {
                 <a
                   href="https://github.com/zlatka-n/eshop_redux"
                   target="_blank"
+                  rel="external"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
@@ -70,6 +71,7 @@ export default function PortfolioPage() {
                 <a
                   href="https://eshop-redux-o0j2i15xt-zlatka-n.vercel.app/"
                   target="_blank"
+                  rel="external"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 >
                   <span className="px-5">Visit</span>
@@ -117,6 +119,7 @@ export default function PortfolioPage() {
                 <a
                   href="https://github.com/zlatka-n/typicode_json"
                   target="_blank"
+                  rel="external"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
@@ -125,6 +128,7 @@ export default function PortfolioPage() {
                 <a
                   href="https://json-placeholder-zlatka-n.vercel.app/"
                   target="_blank"
+                  rel="external"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 >
                   <span className="px-5">Visit</span>
@@ -164,6 +168,7 @@ export default function PortfolioPage() {
                 <a
                   href="https://github.com/zlatka-n/todo_redux/tree/master"
                   target="_blank"
+                  rel="external"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
@@ -172,6 +177,7 @@ export default function PortfolioPage() {
                 <a
                   href="https://todo-redux-liart.vercel.app/"
                   target="_blank"
+                  rel="external"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 >
                   <span className="px-5">Visit</span>
@@ -227,6 +233,7 @@ export default function PortfolioPage() {
                 <a
                   href="https://github.com/zlatka-n/portfolio_website"
                   target="_blank"
+                  rel="external"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}

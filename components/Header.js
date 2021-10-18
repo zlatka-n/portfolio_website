@@ -18,6 +18,7 @@ export default function Header() {
           {/* <Link href="/resume"> */}
           <a
             target="_blank"
+            rel="external"
             href="https://drive.google.com/file/d/1afVsoylEEumLTjgdYT3ge26XJJPb5uN1/view?usp=sharing"
           >
             Resume

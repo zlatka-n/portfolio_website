@@ -24,6 +24,7 @@ export default function About() {
               <a
                 href="https://www.udemy.com/course/nextjs-dev-to-deployment/"
                 target="_blank"
+                rel="external"
                 className="underline text-blue-700"
               >
                 Next.js
