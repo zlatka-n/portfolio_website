@@ -98,8 +98,8 @@ export default function PortfolioPage() {
               <p className="text-xl mt-2 mb-5 leading-normal">
                 This project fetches data from JSON Placeholder - GET request
                 was performed. The data I fetched, I used for showing all posts,
-                user search, and user's profile rendering. The layout of the
-                website was inspired heavily by Facebook and Twitter.
+                user search, and {" user's "} profile rendering. The layout of
+                the website was inspired heavily by Facebook and Twitter.
               </p>
               <h3 className="text-2xl text-gray-700 font-medium">Tech stack</h3>
               <ul className="text-xl mt-2 mb-5 leading-normal">
@@ -215,8 +215,8 @@ export default function PortfolioPage() {
               <ul className="text-xl mt-2 mb-5 leading-normal list-disc pl-10">
                 <li> website layout choice</li>
                 <li>
-                  web responsivness for 4k screen's dimensions (3840px X 2160px)
-                  - solved with custom breakpoint in Tailwind
+                  web responsivness for 4k {" screen's "} dimensions (3840px X
+                  2160px) - solved with custom breakpoint in Tailwind
                 </li>
                 <li>
                   contact page - I had to combine libraries React Hook Form and

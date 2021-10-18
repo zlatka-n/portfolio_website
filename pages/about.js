@@ -17,9 +17,10 @@ export default function About() {
               automating business processes.
             </p>
             <p className="text-xl my-10 leading-normal">
-              I've started coding out of curiosity in June 2020 . At my current
-              job, vanilla JavaScript is mostly needed, but I became curious
-              about other technologies - I've just finished this Udemy's{" "}
+              {" I've "} started coding out of curiosity in June 2020 . At my
+              current job, vanilla JavaScript is mostly needed, but I became
+              curious about other technologies - {" I've "} just finished this{" "}
+              {"Udemy's"}{" "}
               <a
                 href="https://www.udemy.com/course/nextjs-dev-to-deployment/"
                 target="_blank"
@@ -27,9 +28,9 @@ export default function About() {
               >
                 Next.js
               </a>{" "}
-              course. In my free time, I've been coding mostly with React.js and
-              Redux, and realized that I would like to switch to front-end
-              development.
+              course. In my free time, {" I've "} been coding mostly with
+              React.js and Redux, and realized that I would like to switch to
+              front-end development.
             </p>
             <p className="text-xl my-10 leading-normal">
               Feel free to get in touch. I will try to read and respond to all
