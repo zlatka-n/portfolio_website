@@ -44,8 +44,10 @@ export default function PortfolioPage() {
                 basket, user can also modify quantity or remove items. In
                 checkout, user must submit delivery information.
               </p>
-              <h3 className="text-2xl text-gray-700 font-medium">Tech stack</h3>
-              <ul className="text-xl mt-2 mb-5 leading-normal">
+              <h3 className="text-2xl text-gray-700 font-medium">
+                The main library/framework
+              </h3>
+              <ul className="text-xl mt-2 mb-5 leading-normal list-disc pl-10">
                 <li>React.js</li>
                 <li>Redux</li>
               </ul>
@@ -103,8 +105,10 @@ export default function PortfolioPage() {
                 user search, and {" user's "} profile rendering. The layout of
                 the website was inspired heavily by Facebook and Twitter.
               </p>
-              <h3 className="text-2xl text-gray-700 font-medium">Tech stack</h3>
-              <ul className="text-xl mt-2 mb-5 leading-normal">
+              <h3 className="text-2xl text-gray-700 font-medium">
+                The main library/framework
+              </h3>
+              <ul className="text-xl mt-2 mb-5 leading-normal list-disc pl-10">
                 <li>React.js</li>
               </ul>
               <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
@@ -154,8 +158,10 @@ export default function PortfolioPage() {
                 The todo list is capable of CRUD (create, read, update, delete)
                 operations.
               </p>
-              <h3 className="text-2xl text-gray-700 font-medium">Tech stack</h3>
-              <ul className="text-xl mt-2 mb-5 leading-normal">
+              <h3 className="text-2xl text-gray-700 font-medium">
+                The main library/framework
+              </h3>
+              <ul className="text-xl mt-2 mb-5 leading-normal list-disc pl-10">
                 <li>React.js</li>
                 <li>Redux</li>
               </ul>
@@ -208,10 +214,11 @@ export default function PortfolioPage() {
                 potential employer can see my portfolio here and evaluate my
                 tech skills.
               </p>
-              <h3 className="text-2xl text-gray-700 font-medium">Tech stack</h3>
-              <ul className="text-xl mt-2 mb-5 leading-normal">
+              <h3 className="text-2xl text-gray-700 font-medium">
+                The main library/framework
+              </h3>
+              <ul className="text-xl mt-2 mb-5 leading-normal list-disc pl-10">
                 <li>Next.js</li>
-                <li>Tailwind</li>
               </ul>
               <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
               <p className="text-xl mt-2 leading-normal">
