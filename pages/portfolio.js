@@ -124,7 +124,7 @@ export default function PortfolioPage() {
                   href="https://github.com/zlatka-n/typicode_json"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 mr-2 lg:mr-0 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
                   <span className="px-1">GitHub</span>
@@ -175,7 +175,7 @@ export default function PortfolioPage() {
                   href="https://github.com/zlatka-n/todo_redux/tree/master"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 mr-2 lg:mr-0 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
                   <span className="px-1">GitHub</span>
@@ -241,7 +241,7 @@ export default function PortfolioPage() {
                   href="https://github.com/zlatka-n/portfolio_website"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded mr-2 lg:mr-0"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
                   <span className="px-1">GitHub</span>
