@@ -68,7 +68,7 @@ export default function PortfolioPage() {
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
-                  <span className="px-1">GitHub</span>
+                  <span className="px-1">Git</span>
                 </a>
                 <a
                   href="https://eshop-redux-o0j2i15xt-zlatka-n.vercel.app/"
