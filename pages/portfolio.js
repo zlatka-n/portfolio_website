@@ -48,7 +48,7 @@ export default function PortfolioPage() {
                 The main library/framework
               </h3>
               <ul className="text-xl mt-2 mb-5 leading-normal list-disc pl-10">
-                <li>React.js</li>
+                <li>ReactJS</li>
                 <li>Redux</li>
               </ul>
               <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
@@ -65,7 +65,7 @@ export default function PortfolioPage() {
                   href="https://github.com/zlatka-n/eshop_redux"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
                   <span className="px-1">GitHub</span>
@@ -74,7 +74,7 @@ export default function PortfolioPage() {
                   href="https://eshop-redux-o0j2i15xt-zlatka-n.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
                 >
                   <span className="px-5">Visit</span>
                 </a>
@@ -109,7 +109,7 @@ export default function PortfolioPage() {
                 The main library/framework
               </h3>
               <ul className="text-xl mt-2 mb-5 leading-normal list-disc pl-10">
-                <li>React.js</li>
+                <li>ReactJS</li>
               </ul>
               <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
               <p className="text-xl mt-2 mb-5 leading-normal">
@@ -124,7 +124,7 @@ export default function PortfolioPage() {
                   href="https://github.com/zlatka-n/typicode_json"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
                   <span className="px-1">GitHub</span>
@@ -133,7 +133,7 @@ export default function PortfolioPage() {
                   href="https://json-placeholder-zlatka-n.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
                 >
                   <span className="px-5">Visit</span>
                 </a>
@@ -162,7 +162,7 @@ export default function PortfolioPage() {
                 The main library/framework
               </h3>
               <ul className="text-xl mt-2 mb-5 leading-normal list-disc pl-10">
-                <li>React.js</li>
+                <li>ReactJS</li>
                 <li>Redux</li>
               </ul>
               <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
@@ -175,7 +175,7 @@ export default function PortfolioPage() {
                   href="https://github.com/zlatka-n/todo_redux/tree/master"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
                   <span className="px-1">GitHub</span>
@@ -184,7 +184,7 @@ export default function PortfolioPage() {
                   href="https://todo-redux-liart.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
                 >
                   <span className="px-5">Visit</span>
                 </a>
@@ -241,7 +241,7 @@ export default function PortfolioPage() {
                   href="https://github.com/zlatka-n/portfolio_website"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
                   <span className="px-1">GitHub</span>
