@@ -60,12 +60,12 @@ export default function PortfolioPage() {
                 of time with website responsiveness, as it was the first time I
                 used media queries.
               </p>
-              <div className="mt-2 mb-5 flex gap-x-5 lg:gap-x-3">
+              <div className="mt-2 mb-5 flex gap-x-3">
                 <a
                   href="https://github.com/zlatka-n/eshop_redux"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 mr-2 lg:mr-0	rounded"
                 >
                   <AiFillGithub className="float-left text-xl" />{" "}
                   <span className="px-1">GitHub</span>
