@@ -130,7 +130,7 @@ export default function PortfolioPage() {
                   <span className="px-1">GitHub</span>
                 </a>
                 <a
-                  href="https://json-placeholder-zlatka-n.vercel.app/"
+                  href="https://typicode-json.vercel.app"
                   target="_blank"
                   rel="noreferrer"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
