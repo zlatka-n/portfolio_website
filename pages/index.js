@@ -33,7 +33,7 @@ export default function Home() {
               </h2>
             </div>
 
-            <div className="px-5 md:flex gap-x-10">
+            <div className="grid grid-cols-2 gap-20">
               {projectCardConfig.map(
                 ({ imgSrc, imgWidth, imgHeight, githubLink, projectLink, name }) => (
                   <ProjectCard
