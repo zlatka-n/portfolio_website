@@ -22,7 +22,7 @@ export default function Home() {
               front-end development. Here you can find a few information about me including my
               portfolio.
             </p>
-            <p>So I made it and have been working as front-end developer for almost year now. This website is under construction, as I'm trying to refactor my spaghetti code that I created a year ago.</p>
+            <p>So I made it and have been working as front-end developer for almost year now. :) This portfolio project is under construction, as I'm trying to refactor my spaghetti code that I created a year ago.</p>
           </div>
         </section>
 
