@@ -1,26 +1,22 @@
-import Layout from "@/components/Layout";
-import Image from "next/image";
+import Layout from '@/components/Layout';
+import Image from 'next/image';
 
 export default function About() {
   return (
     <Layout>
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto md:w-3/5 font-sans">
-          <h1 className="text-5xl md:text-7xl 4k:text-9xl font-bold px-5 md:px-0">
-            About
-          </h1>
+          <h1 className="text-5xl md:text-7xl 4k:text-9xl font-bold px-5 md:px-0">About</h1>
 
           <div className="box-border px-5 md:px-0">
             <p className="text-xl my-10 leading-normal">
-              Hi, I’m Zlatka, an IT consultant based in the city of Prague,
-              Czech Republic. I’m currently working with Neit Consulting
-              automating business processes.
+              Hi, I’m Zlatka, an IT consultant based in the city of Prague, Czech Republic. I’m
+              currently working with Neit Consulting automating business processes.
             </p>
             <p className="text-xl my-10 leading-normal">
-              {" I've "} started coding out of curiosity in June 2020 . At my
-              current job, vanilla JavaScript is mostly needed, but I became
-              curious about other technologies - {" I've "} just finished this{" "}
-              {"Udemy's"}{" "}
+              {" I've "} started coding out of curiosity in June 2020 . At my current job, vanilla
+              JavaScript is mostly needed, but I became curious about other technologies -{' '}
+              {" I've "} just finished this {"Udemy's"}{' '}
               <a
                 href="https://www.udemy.com/course/nextjs-dev-to-deployment/"
                 target="_blank"
@@ -28,14 +24,12 @@ export default function About() {
                 className="underline text-blue-700"
               >
                 Next.js
-              </a>{" "}
-              course. In my free time, {" I've "} been coding mostly with
-              React.js and Redux, and realized that I would like to switch to
-              front-end development.
+              </a>{' '}
+              course. In my free time, {" I've "} been coding mostly with React.js and Redux, and
+              realized that I would like to switch to front-end development.
             </p>
             <p className="text-xl my-10 leading-normal">
-              Feel free to get in touch. I will try to read and respond to all
-              emails.
+              Feel free to get in touch. I will try to read and respond to all emails.
             </p>
             <h2 className="w-2/6 lg:w-1/5 my-10 p-2 box-content text-xl md:text-2xl xl:text-3xl font-bold text-white bg-red-500 rounded">
               Tech stack

@@ -1,14 +1,8 @@
-import Head from "next/head";
-import Header from "./Header";
-import Footer from "@/components/Footer";
+import Head from 'next/head';
+import Header from './Header';
+import Footer from '@/components/Footer';
 
-export default function Layout({
-  title,
-  children,
-  keywords,
-  description,
-  content,
-}) {
+export default function Layout({ title, children, keywords, description, content }) {
   return (
     <div className="max-h-full">
       <Head>
