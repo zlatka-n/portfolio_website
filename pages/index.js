@@ -1,7 +1,5 @@
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
-import Image from 'next/image';
-import { AiFillGithub } from 'react-icons/ai';
 import { ProjectCard } from '@/components/ProjectCard';
 import { projectCardConfig } from 'utils';
 export default function Home() {
@@ -17,12 +15,12 @@ export default function Home() {
             Hello, {" I'm "} Zlatka.
           </h1>
           <div className="mx-auto md:w-3/5 leading-normal px-5 md:px-0 py-10 text-2xl text-gray-700">
-            <p className='line-through'>
+            <p className='line-through mb-2'>
               I currently work as an IT consultant in Prague, but {" I'd "} like to switch to
               front-end development. Here you can find a few information about me including my
               portfolio.
             </p>
-            <p>So I made it and have been working as front-end developer for almost year now. :) This portfolio project is under construction, as I'm trying to refactor my spaghetti code that I created a year ago.</p>
+            <p>So I made it and have been working as a front-end developer for almost a year now. :) This portfolio project is under construction, as I'm trying to refactor my spaghetti code that I created a year ago.</p>
           </div>
         </section>
 
