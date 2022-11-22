@@ -1,7 +1,8 @@
-import Layout from "../components/Layout";
-import Footer from "../components/Footer";
-import Image from "next/image";
-import { AiFillGithub } from "react-icons/ai";
+import Layout from '../components/Layout';
+import Footer from '../components/Footer';
+import Image from 'next/image';
+import { AiFillGithub } from 'react-icons/ai';
+import { ProjectCard } from '@/components/ProjectCard';
 export default function Home() {
   return (
     <Layout
@@ -16,14 +17,14 @@ export default function Home() {
           </h1>
           <div className="mx-auto md:w-3/5 leading-normal px-5 md:px-0 py-10 text-2xl text-gray-700">
             <p>
-              I currently work as an IT consultant in Prague, but {" I'd "} like
-              to switch to front-end development. Here you can find a few
-              information about me including my portfolio.
+              I currently work as an IT consultant in Prague, but {" I'd "} like to switch to
+              front-end development. Here you can find a few information about me including my
+              portfolio.
             </p>
           </div>
         </section>
 
-        {/* Portfolio section with images */}
+        {/* Portfolio section with images: WTF, WHY DID I WRITE IT LIKE THIS?! */}
         <section className="bg-gray-200 pb-10 overflow-y-hidden min-h-screen flex">
           <div className="mx-auto max-w-7xl 4k:max-w-full	my-auto 4k:my-32">
             <div>
@@ -33,11 +34,9 @@ export default function Home() {
             </div>
 
             <div className="px-5 md:flex gap-x-10">
-              <div className="flex-column">
-                <h3 className="text-2xl py-5 text-gray-700 font-medium">
-                  Book Store
-                </h3>
-                <Image src="/screens/bookstore1.png" width={814} height={460} />
+              {/* <div className="flex-column">
+                <h3 className="text-2xl py-5 text-gray-700 font-medium">Book Store</h3>
+                <Image src="" width={814} height={460} />
 
                 <div className=" my-5 flex gap-x-3">
                   <a
@@ -46,7 +45,7 @@ export default function Home() {
                     rel="noreferrer"
                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-2 lg:mr-0 rounded"
                   >
-                    <AiFillGithub className="float-left text-xl" />{" "}
+                    <AiFillGithub className="float-left text-xl" />{' '}
                     <span className="px-1">GitHub</span>
                   </a>
                   <a
@@ -58,17 +57,12 @@ export default function Home() {
                     <span className="px-5">Visit</span>
                   </a>
                 </div>
-              </div>
+              </div> */}
+              <ProjectCard imgSrc={'/screens/bookstore1.png'} imgWidth={814} imgHeight={460} githubLink={'https://github.com/zlatka-n/eshop_redux'} projectLink={'https://eshop-redux-zlatka-n.vercel.app/'} />
 
               <div className="flex-column">
-                <h3 className="text-2xl py-5 text-gray-700 font-medium">
-                  CRUD Todo List
-                </h3>
-                <Image
-                  src="/screens/todo_redux2.png"
-                  width={514}
-                  height={460}
-                />
+                <h3 className="text-2xl py-5 text-gray-700 font-medium">CRUD Todo List</h3>
+                <Image src="/screens/todo_redux2.png" width={514} height={460} />
 
                 <div className=" my-5 flex gap-x-3">
                   <a
@@ -77,7 +71,7 @@ export default function Home() {
                     rel="noreferrer"
                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-2 lg:mr-0 rounded"
                   >
-                    <AiFillGithub className="float-left text-xl" />{" "}
+                    <AiFillGithub className="float-left text-xl" />{' '}
                     <span className="px-1">GitHub</span>
                   </a>
                   <a
@@ -93,14 +87,8 @@ export default function Home() {
             </div>
 
             <div className="px-5 md:flex-column gap-x-10">
-              <h3 className="text-2xl py-5 text-gray-700 font-medium">
-                JSON Placeholder
-              </h3>
-              <Image
-                src="/screens/typicode1.png"
-                width={709.67}
-                height={401.04}
-              />
+              <h3 className="text-2xl py-5 text-gray-700 font-medium">JSON Placeholder</h3>
+              <Image src="/screens/typicode1.png" width={709.67} height={401.04} />
               <div className=" my-5 flex gap-x-3">
                 <a
                   href="https://github.com/zlatka-n/typicode_json"
@@ -108,7 +96,7 @@ export default function Home() {
                   rel="noreferrer"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-2 lg:mr-0 rounded"
                 >
-                  <AiFillGithub className="float-left text-xl" />{" "}
+                  <AiFillGithub className="float-left text-xl" />{' '}
                   <span className="px-1">GitHub</span>
                 </a>
 
