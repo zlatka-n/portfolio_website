@@ -17,11 +17,12 @@ export default function Home() {
             Hello, {" I'm "} Zlatka.
           </h1>
           <div className="mx-auto md:w-3/5 leading-normal px-5 md:px-0 py-10 text-2xl text-gray-700">
-            <p>
+            <p className='line-through'>
               I currently work as an IT consultant in Prague, but {" I'd "} like to switch to
               front-end development. Here you can find a few information about me including my
               portfolio.
             </p>
+            <p>So I made it and have been working as front-end developer for almost year now. This website is under construction, as I'm trying to refactor my spaghetti code that I created a year ago.</p>
           </div>
         </section>
 
