@@ -1,6 +1,6 @@
 import Layout from '@/components/Layout';
-import Image from 'next/image';
-import { AiFillGithub } from 'react-icons/ai';
+import { portfolioCardConfig } from 'utils'
+import { PorfolioCard } from '@/components/PortfolioCard';
 
 export default function PortfolioPage() {
   return (
@@ -18,7 +18,18 @@ export default function PortfolioPage() {
 
       <div className="bg-gray-200 py-10">
         <div className="max-w-7xl mx-auto  overflow-y-hidden min-h-screen">
-          <section className="mx-auto md:w-3/5 flex flex-col">
+          {portfolioCardConfig.map(({ imgSrc, imgWidth, imgHeight, githubLink, projectLink, name, description, techStack, challenges }) =>
+            <PorfolioCard
+              imgSrc={imgSrc}
+              imgWidth={imgWidth}
+              imgHeight={imgHeight}
+              githubLink={githubLink}
+              projectLink={projectLink}
+              name={name}
+              description={description}
+              techStack={techStack}
+              challenges={challenges} />)}
+          {/* <section className="mx-auto md:w-3/5 flex flex-col">
             <h2 className="text-3xl px-5 md:px-0 py-5 text-gray-700 font-medium">Book Store</h2>
             <div>
               <Image layout="responsive" src="/screens/bookstore1.png" width={620} height={345} />
@@ -63,9 +74,9 @@ export default function PortfolioPage() {
                 </a>
               </div>
             </div>
-          </section>
+          </section> */}
 
-          <section className="mx-auto md:w-3/5 flex flex-col">
+          {/* <section className="mx-auto md:w-3/5 flex flex-col">
             <h2 className="text-3xl px-5 md:px-0 py-5 text-gray-700 font-medium">
               JSON Placeholder
             </h2>
@@ -111,9 +122,9 @@ export default function PortfolioPage() {
                 </a>
               </div>
             </div>
-          </section>
+          </section> */}
 
-          <section className="mx-auto md:w-3/5 flex flex-col">
+          {/* <section className="mx-auto md:w-3/5 flex flex-col">
             <h2 className="text-3xl px-5 md:px-0 py-5 text-gray-700 font-medium">Todo List</h2>
             <div className="mx-auto">
               <Image src="/screens/todo_redux2.png" width={420} height={345} />
@@ -155,9 +166,9 @@ export default function PortfolioPage() {
                 </a>
               </div>
             </div>
-          </section>
+          </section> */}
 
-          <section className="mx-auto md:w-3/5 flex flex-col">
+          {/* <section className="mx-auto md:w-3/5 flex flex-col">
             <h2 className="text-3xl px-5 md:px-0 py-5 text-gray-700 font-medium">
               Website Portfolio
             </h2>
@@ -206,7 +217,7 @@ export default function PortfolioPage() {
                 </a>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
     </Layout>
