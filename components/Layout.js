@@ -22,4 +22,4 @@ export const Layout = ({ title, children, keywords, description, content }) => {
       </main>
     </div>
   );
-}
+};

@@ -1,5 +1,5 @@
 import { Layout } from '@/components/Layout';
-import { portfolioCardConfig } from 'utils'
+import { portfolioCardConfig } from 'utils';
 import { PorfolioCard } from '@/components/PortfolioCard';
 
 export default function PortfolioPage() {
@@ -18,17 +18,31 @@ export default function PortfolioPage() {
 
       <div className="bg-gray-200 py-10">
         <div className="max-w-7xl mx-auto  overflow-y-hidden min-h-screen">
-          {portfolioCardConfig.map(({ imgSrc, imgWidth, imgHeight, githubLink, projectLink, name, description, techStack, challenges }) =>
-            <PorfolioCard
-              imgSrc={imgSrc}
-              imgWidth={imgWidth}
-              imgHeight={imgHeight}
-              githubLink={githubLink}
-              projectLink={projectLink}
-              name={name}
-              description={description}
-              techStack={techStack}
-              challenges={challenges} />)}
+          {portfolioCardConfig.map(
+            ({
+              imgSrc,
+              imgWidth,
+              imgHeight,
+              githubLink,
+              projectLink,
+              name,
+              description,
+              techStack,
+              challenges
+            }) => (
+              <PorfolioCard
+                imgSrc={imgSrc}
+                imgWidth={imgWidth}
+                imgHeight={imgHeight}
+                githubLink={githubLink}
+                projectLink={projectLink}
+                name={name}
+                description={description}
+                techStack={techStack}
+                challenges={challenges}
+              />
+            )
+          )}
         </div>
       </div>
     </Layout>
