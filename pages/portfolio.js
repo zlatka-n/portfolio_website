@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout';
+import { Layout } from '@/components/Layout';
 import { portfolioCardConfig } from 'utils'
 import { PorfolioCard } from '@/components/PortfolioCard';
 

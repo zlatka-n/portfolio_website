@@ -1,4 +1,4 @@
 {
   "extends": ["eslint:recommended", "plugin:@next/next/recommended", "plugin:prettier/recommended"],
-  "parser": "@babel/eslint-parser"
+  // "parser": "@babel/eslint-parser"
 }

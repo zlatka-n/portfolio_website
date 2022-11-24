@@ -1,5 +1,4 @@
-import Layout from '../components/Layout';
-import Footer from '../components/Footer';
+import { Layout } from '../components/Layout';
 import { ProjectCard } from '@/components/ProjectCard';
 import { projectCardConfig } from 'utils';
 export default function Home() {
