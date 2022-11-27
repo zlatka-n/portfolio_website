@@ -5,7 +5,7 @@ technical skills based on those projects.
 
 ## Link
 
-www.zlatka.me
+https://portfolio-website-8x9y.vercel.app
 
 ## Challenges
 
