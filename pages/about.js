@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout';
+import { Layout } from '@/components/Layout';
 import Image from 'next/image';
 
 export default function About() {
@@ -21,8 +21,7 @@ export default function About() {
                 href="https://www.udemy.com/course/nextjs-dev-to-deployment/"
                 target="_blank"
                 rel="noreferrer"
-                className="underline text-blue-700"
-              >
+                className="underline text-blue-700">
                 Next.js
               </a>{' '}
               course. In my free time, {" I've "} been coding mostly with React.js and Redux, and
@@ -36,14 +35,14 @@ export default function About() {
             </h2>
             <div className="flex flex-col gap-y-5 px-5 md:px-5">
               <div className="flex justify-center">
-                <Image src="/techStack/combo.png" width={400} height={120} />
+                <Image src="/techStack/combo.png" width={400} height={120} alt="html, css, js" />
               </div>
               <div className="flex justify-center lg:pl-20  md:gap-x-5">
-                <Image src="/techStack/react.png" width={125} height={80} />
+                <Image src="/techStack/react.png" width={125} height={80} alt="react" />
                 <a className="">
-                  <Image src="/techStack/redux.png" width={125} height={80} />
+                  <Image src="/techStack/redux.png" width={125} height={80} alt="redux" />
                 </a>
-                <Image src="/techStack/git3.png" width={180} height={80} />
+                <Image src="/techStack/git3.png" width={180} height={80} alt="git" />
               </div>
             </div>
           </div>

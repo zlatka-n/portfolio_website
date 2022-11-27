@@ -13,8 +13,7 @@ export const ProjectCard = ({ imgSrc, imgWidth, imgHeight, projectLink, githubLi
           href={githubLink}
           target="_blank"
           rel="noreferrer"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-2 lg:mr-0 rounded"
-        >
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-2 lg:mr-0 rounded">
           <div className="flex">
             <AiFillGithub className="float-left text-xl" />
             <h2 className="px-1">GitHub</h2>
@@ -24,8 +23,7 @@ export const ProjectCard = ({ imgSrc, imgWidth, imgHeight, projectLink, githubLi
           href={projectLink}
           target="_blank"
           rel="noreferrer"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        >
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           <h2 className="px-5">Visit</h2>
         </a>
       </button>

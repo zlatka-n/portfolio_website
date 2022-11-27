@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from './Header';
 import Footer from '@/components/Footer';
 
-export const Layout = ({ title, children, keywords, description, content }) => {
+export const Layout = ({ title, children, keywords, description }) => {
   return (
     <div className="max-h-full">
       <Head>

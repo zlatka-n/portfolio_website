@@ -31,6 +31,7 @@ export default function PortfolioPage() {
               challenges
             }) => (
               <PorfolioCard
+                key={name}
                 imgSrc={imgSrc}
                 imgWidth={imgWidth}
                 imgHeight={imgHeight}

@@ -7,8 +7,7 @@ export default function Footer() {
         <p className="">zlatka094@seznam.cz</p>
         <div
           className="flex items-center"
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        >
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <AiOutlineArrowUp /> Top
         </div>
       </div>

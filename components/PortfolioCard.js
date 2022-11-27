@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import Image from 'next/dist/client/image';
 import { AiFillGithub } from 'react-icons/ai';
@@ -26,7 +27,7 @@ export const PorfolioCard = ({
         <h3 className="text-2xl text-gray-700 font-medium">The main library/framework</h3>
         <ul className="text-xl mt-2 mb-5 leading-normal list-disc pl-10">
           {techStack.map((item) => (
-            <li>{item}</li>
+            <li key={item}>{item}</li>
           ))}
         </ul>
         <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
@@ -36,16 +37,14 @@ export const PorfolioCard = ({
             href="https://github.com/zlatka-n/eshop_redux"
             target="_blank"
             rel="noreferrer"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 mr-2 lg:mr-0	rounded"
-          >
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 mr-2 lg:mr-0	rounded">
             <AiFillGithub className="float-left text-xl" /> <span className="px-1">GitHub</span>
           </a>
           <a
             href="https://eshop-redux-zlatka-n.vercel.app/"
             target="_blank"
             rel="noreferrer"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded"
-          >
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded">
             <span className="px-5">Visit</span>
           </a>
         </div>

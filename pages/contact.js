@@ -8,7 +8,6 @@ export default function ContactPage() {
 
   const {
     register,
-    watch,
     formState: { errors },
     handleSubmit
   } = useForm();

@@ -19,8 +19,7 @@ export default function Header() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1BAkSzpC2xfy-YqOjGgt8CoS4sOoVSEWY/view?usp=sharing"
-          >
+            href="https://drive.google.com/file/d/1BAkSzpC2xfy-YqOjGgt8CoS4sOoVSEWY/view?usp=sharing">
             Resume
           </a>
           {/* </Link> */}
