@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout';
+import { Layout } from '@/components/Layout';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
