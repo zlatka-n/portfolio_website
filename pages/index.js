@@ -34,7 +34,7 @@ export default function Home() {
               </h2>
             </div>
 
-            <div className="grid grid-cols-2 gap-20">
+            <div className="grid grid-cols-2 gap-20 px-5">
               {projectCardConfig.map(
                 ({ imgSrc, imgWidth, imgHeight, githubLink, projectLink, name }) => (
                   <ProjectCard
