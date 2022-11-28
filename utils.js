@@ -79,3 +79,7 @@ export const portfolioCardConfig = [
     githubLink: 'https://github.com/zlatka-n/portfolio_website'
   }
 ];
+
+export const introductionText = {
+  homepage: "I currently work as an IT consultant in Prague, but I'd like to switch to front-end development. Here you can find a few information about me including my portfolio."
+}
