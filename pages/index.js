@@ -16,11 +16,15 @@ export default function Home() {
             Hello, {" I'm "} Zlatka.
           </h1>
           <div className="mx-auto md:w-3/5 leading-normal px-5 md:px-0 py-10 text-2xl text-gray-700">
-            <Introduction text={introductionText.homepage} className={"line-through mb-2"} />
+            <Introduction
+              text={introductionText.homepage}
+              className={'line-through mb-2'}
+            />
             <p>
-              So I made it and have been working as a front-end developer for almost a year now. :)
-              This portfolio project is under construction, as I'm trying to refactor my spaghetti
-              code that I created a year ago.
+              So I made it and have been working as a front-end developer for
+              almost a year now. :) This portfolio project is under
+              construction, as I'm trying to refactor my spaghetti code that I
+              created a year ago.
             </p>
           </div>
         </section>
@@ -35,7 +39,14 @@ export default function Home() {
 
             <div className="grid grid-cols-2 gap-20 px-5">
               {projectCardConfig.map(
-                ({ imgSrc, imgWidth, imgHeight, githubLink, projectLink, name }) => (
+                ({
+                  imgSrc,
+                  imgWidth,
+                  imgHeight,
+                  githubLink,
+                  projectLink,
+                  name
+                }) => (
                   <ProjectCard
                     key={name}
                     imgSrc={imgSrc}

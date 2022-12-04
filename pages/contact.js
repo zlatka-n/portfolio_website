@@ -16,7 +16,12 @@ export default function ContactPage() {
 
   const sendEmail = () => {
     emailjs
-      .sendForm('service_66mzfvh', 'template_xvq88cp', form.current, 'user_uG2ERR9NyJGgBbIe05qy3')
+      .sendForm(
+        'service_66mzfvh',
+        'template_xvq88cp',
+        form.current,
+        'user_uG2ERR9NyJGgBbIe05qy3'
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -33,8 +38,13 @@ export default function ContactPage() {
     <Layout>
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto md:w-3/5 px-5 md:px-0">
-          <h1 className="text-5xl md:text-7xl 4k:text-9xl font-bold  pb-5">Contact</h1>
-          <Introduction text={introductionText.contact} className="text-xl py-5" />
+          <h1 className="text-5xl md:text-7xl 4k:text-9xl font-bold  pb-5">
+            Contact
+          </h1>
+          <Introduction
+            text={introductionText.contact}
+            className="text-xl py-5"
+          />
           <form ref={form} onSubmit={handleSubmit(sendEmail)}>
             <div className="my-5">
               <label className="text-xl">Full name</label>

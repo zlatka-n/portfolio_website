@@ -15,7 +15,6 @@ export default function Header() {
           <Link href="/portfolio">
             <a>Portfolio</a>
           </Link>
-          {/* <Link href="/resume"> */}
           <a
             target="_blank"
             rel="noreferrer"

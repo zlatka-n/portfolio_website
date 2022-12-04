@@ -2,7 +2,14 @@ import React from 'react';
 import Image from 'next/image';
 import { Buttons } from './Buttons';
 
-export const ProjectCard = ({ imgSrc, imgWidth, imgHeight, projectLink, githubLink, name }) => {
+export const ProjectCard = ({
+  imgSrc,
+  imgWidth,
+  imgHeight,
+  projectLink,
+  githubLink,
+  name
+}) => {
   return (
     <div className="flex-column">
       <h3 className="text-2xl py-5 text-gray-700 font-medium">{name}</h3>
