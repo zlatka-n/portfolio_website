@@ -40,7 +40,7 @@ export const portfolioCardConfig = [
     githubLink: 'https://github.com/zlatka-n/eshop_redux'
   },
   {
-    imgSrc: '/screens/bookstore1.png',
+    imgSrc: '/screens/typicode2.png',
     imgWidth: 620,
     imgHeight: 345,
     name: 'JSON Placeholder',
