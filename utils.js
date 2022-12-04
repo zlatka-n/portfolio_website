@@ -76,7 +76,8 @@ export const portfolioCardConfig = [
     challenges:
       "website layout choice, web responsivness for 4k screen's dimensions (3840px X 2160px) - solved with custom breakpoint in Tailwind, contact page - I had to combine libraries React Hook Form and EmailJs for inputvalidation and sending a message to my email",
     projectLink: '',
-    githubLink: 'https://github.com/zlatka-n/portfolio_website'
+    githubLink: 'https://github.com/zlatka-n/portfolio_website',
+    isVisitHidden: true
   }
 ];
 
