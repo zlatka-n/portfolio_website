@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/dist/client/image';
 import { AiFillGithub } from 'react-icons/ai';
+import { Buttons } from './Buttons';
 
 export const PorfolioCard = ({
   imgSrc,
@@ -12,7 +13,8 @@ export const PorfolioCard = ({
   techStack,
   challenges,
   githubLink,
-  projectLink
+  projectLink,
+  isVisitHidden
 }) => {
   return (
     <section className="mx-auto md:w-3/5 flex flex-col">
@@ -32,7 +34,7 @@ export const PorfolioCard = ({
         </ul>
         <h3 className="text-2xl text-gray-700 font-medium">Challenges</h3>
         <p className="text-xl mt-2 mb-5 leading-normal">{challenges}</p>
-        <div className="mt-2 mb-5 flex gap-x-3">
+        {/* <div className="mt-2 mb-5 flex gap-x-3">
           <a
             href={githubLink}
             target="_blank"
@@ -47,7 +49,8 @@ export const PorfolioCard = ({
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 md:px-4 rounded">
             <span className="px-5">Visit</span>
           </a>
-        </div>
+        </div> */}
+        <Buttons githubLink={githubLink} projectLink={projectLink} isVisitHidden={isVisitHidden} />
       </div>
     </section>
   );

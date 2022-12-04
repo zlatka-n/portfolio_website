@@ -28,7 +28,8 @@ export default function PortfolioPage() {
               name,
               description,
               techStack,
-              challenges
+              challenges,
+              isVisitHidden
             }) => (
               <PorfolioCard
                 key={name}
@@ -41,6 +42,7 @@ export default function PortfolioPage() {
                 description={description}
                 techStack={techStack}
                 challenges={challenges}
+                isVisitHidden={isVisitHidden}
               />
             )
           )}
