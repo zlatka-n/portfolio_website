@@ -81,5 +81,6 @@ export const portfolioCardConfig = [
 ];
 
 export const introductionText = {
-  homepage: "I currently work as an IT consultant in Prague, but I'd like to switch to front-end development. Here you can find a few information about me including my portfolio."
+  homepage: "I currently work as an IT consultant in Prague, but I'd like to switch to front-end development. Here you can find a few information about me including my portfolio.",
+  contact: "Feel free to contact me also by phone +420 735 204 082. I will get back to you as soon as I can."
 }
