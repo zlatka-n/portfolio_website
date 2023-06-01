@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/dist/client/image';
-import { Buttons } from './Buttons';
+import Buttons from './Buttons';
 
 export const PorfolioCard = ({
   imgSrc,
