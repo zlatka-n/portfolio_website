@@ -1,4 +1,4 @@
-module.exports = (fileInfo, api) => {
+const setNamedExport = (fileInfo, api) => {
   const j = api.jscodeshift;
 
   return j(fileInfo.source)
@@ -16,3 +16,4 @@ module.exports = (fileInfo, api) => {
     .toSource();
 };
 
+export default setNamedExport
