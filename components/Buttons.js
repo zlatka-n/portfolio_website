@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai';
 
-const Buttons = ({ githubLink, projectLink, isVisitHidden }) => {
+export const Buttons = ({ githubLink, projectLink, isVisitHidden }) => {
   return (
     <div className=" my-5 flex gap-x-3">
       <a
