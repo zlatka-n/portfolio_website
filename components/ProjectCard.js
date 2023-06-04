@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Buttons from './Buttons';
+import { Buttons } from './Buttons';
 
 export const ProjectCard = ({
   imgSrc,
