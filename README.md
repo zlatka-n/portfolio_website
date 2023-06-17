@@ -1,3 +1,9 @@
+## Update 2023
+
+Hello, I created this project 2 years ago before I landed my first job as front-end developer.
+
+Currently, I use this project to play with codemods with (jscodeshift)[https://github.com/facebook/jscodeshift]. Please, explore more in folder ./jscodeshiftPlugins.
+
 ## Portfolio website
 
 The reason I created this website was for searching a front-end position. On this website, information and links to my projects are included. Potential employer could evaluate my
