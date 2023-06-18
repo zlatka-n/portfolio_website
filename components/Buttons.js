@@ -28,5 +28,3 @@ export const Buttons = ({ githubLink, projectLink, isVisitHidden }) => {
     </div>
   );
 };
-
-export default Buttons
