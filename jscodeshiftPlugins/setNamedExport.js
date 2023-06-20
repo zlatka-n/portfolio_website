@@ -6,14 +6,14 @@ const setNamedExport = (fileInfo, api) => {
       declarations: [
         {
           id: {
-            type: "Identifier",
-            name: "Buttons"
+            type: 'Identifier',
+            name: 'Buttons'
           }
         }
       ]
     })
-    .replaceWith(p => j.exportDeclaration(false, p.node))
+    .replaceWith((p) => j.exportDeclaration(false, p.node))
     .toSource();
 };
 
-export default setNamedExport
+export default setNamedExport;
