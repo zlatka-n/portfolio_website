@@ -5,7 +5,6 @@ export const Introduction = ({ text, className }) => {
     console.time('console.log performance test');
 
     const performance = 'performance';
-    console.log(text);
 
     console.timeEnd('console.log performance test');
 

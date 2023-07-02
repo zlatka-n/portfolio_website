@@ -2,8 +2,6 @@ import React from 'react';
 import { AiFillGithub } from 'react-icons/ai';
 
 export const Buttons = ({ githubLink, projectLink, isVisitHidden }) => {
-  console.log('remove me');
-
   return (
     <div className=" my-5 flex gap-x-3">
       <a
